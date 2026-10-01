@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# install.sh — installa "opencode-commander" nel tuo opencode globale.
+# install.sh — installa "OpenCode Commander" nel tuo opencode globale.
 #
 # Guida interattiva: configura i provider (deepseek/xai/google), collega i file
 # (agenti + skill + supporto) e opzionalmente imposta commander come default.
@@ -190,7 +190,7 @@ main() {
     esac
   done
 
-  say "${BOLD}opencode-commander${RESET} — installazione"
+  say "${BOLD}OpenCode Commander${RESET} — installazione"
 
   if ! command -v opencode >/dev/null 2>&1; then
     err "opencode non trovato nel PATH."

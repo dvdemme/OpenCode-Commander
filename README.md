@@ -1,4 +1,4 @@
-# opencode-commander
+# OpenCode Commander
 
 Un "team" di agenti AI per [opencode](https://opencode.ai): un orchestratore (`commander`) che pianifica, decompone e delega a un equipaggio di subagent specializzati, con revisione incrociata multi-vendor e controllo costo/beneficio.
 
@@ -13,7 +13,7 @@ Tre vendor indipendenti (DeepSeek, Google/Gemini, xAI/Grok), ognuno usato dove r
 
 ```bash
 git clone https://github.com/dvdemme/OpenCode-Commander.git
-cd opencode-commander
+cd OpenCode-Commander
 ./install.sh          # oppure: ./install.sh --copy
 ```
 
@@ -53,7 +53,7 @@ Le skill si caricano da sole quando servono (l'utente non le invoca): il `comman
 ## Aggiornamento
 
 ```bash
-cd opencode-commander && git pull
+cd OpenCode-Commander && git pull
 ```
 
 Con l'installazione via symlink (default) l'aggiornamento è automatico: `git pull` aggiorna i file collegati.
